@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins", "sans-serif";
+}
+h1{
+    font-size: 3.5rem;
+    color: hsl(13, 49%, 35%);
+}
+h2{
+    font-size: 3.5rem;
+    color: hsl(13, 49%, 35%);
+    text-align: center;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    padding-left:2rem;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    box-shadow: 0 2px rgb(185, 185, 185) ;
+    z-index: 1;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    width:50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header a{
+    color:  hsl(13, 49%, 35%);
+}
+a{
+    text-decoration: none;
+    color: bisque;
+    font-size: large;
+}
+a:hover, a:active, a:focus{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.buttons li{
+    padding: 1rem;
+}
+p{
+    font-size: large;
+    letter-spacing: 0.1rem;
+}
+footer{
+    min-height: 90vh;
+    margin-top: 10vh;
+    padding: 10vh 2rem; 
+    width: 100vw;
+    color: bisque;
+    background-color: hsl(13, 49%, 35%);
+}
+.footertitles{
+    list-style-type: none;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.footertitles ul{
+    padding-top: 1rem;
+    list-style-type: none;
+}
+.Download, .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h4{
+    color: hsl(13, 49%, 35%);
+    font-size: x-large;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
+button{
+    font-family: "poppins", "sans-serif";
+    border-style: none;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    background-color: hsl(13, 49%, 35%);
+}
+section{
+    padding: 10vh 2rem;  
+    min-height: 90vh;
+}
+.heritage, .company{
+    padding: 2rem;
+    text-align: justify;
+}
+.heritage img{
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.company img{
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
